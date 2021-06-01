@@ -5,11 +5,11 @@ import Typography from './Typography'
 
 export default function Hero() {
     return (
-        <div className="h-screen md:flex justify-between items-center py-20 px-10 bg-brand-purple
+        <div className="h-full md:flex justify-between items-center py-20 px-10 bg-brand-purple
          text-indigo-100">
             <div className="md:w-1/2 mb-10 md:mr-4 md:mb-0">
-                <h1 className="text-6xl text-white mb-6">Lorem ipsum dolor sit amet consectetur.</h1>
-                <p className="mb-6 text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi provident soluta perferendis, impedit laboriosam similique.</p>
+                <h1 className="text-4xl md:text-6xl text-white mb-6">Lorem ipsum dolor sit amet consectetur.</h1>
+                <p className="mb-6 text-lg md:text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi provident soluta perferendis, impedit laboriosam similique.</p>
 
                 {/* <Link href="/learn-more" passHref>
                     <a className="inline-block py-3 px-6 text-lg bg-gray-400 hover:bg-gray-300 text-gray-800 hover:text-gray-900 rounded mr-2">Learn More</a>

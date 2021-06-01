@@ -5,8 +5,13 @@ module.exports = {
     extend: {
       colors: {
         'brand-pink': '#FFE6FF',
-        'brand-purple': '#110011'
-      }
+        'brand-purple': '#110011',
+        'sidenav': '#FFE4DE'
+      },
+      backgroundImage: theme => ({
+        'services': "url('/images/services.jpg')",
+        'testimonial': "url('/images/tower.jpg')"
+      })
     },
   },
   fontFamily: {
@@ -16,5 +21,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

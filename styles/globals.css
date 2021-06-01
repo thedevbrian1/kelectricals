@@ -13,10 +13,10 @@ body {
   box-sizing: border-box;
 }
 
-.login-btn {
+/* .login-btn {
   @apply inline-block py-2 px-4 text-indigo-200 hover:text-indigo-100;
 }
 
 .signup-btn {
   @apply inline-block py-2 px-4 bg-yellow-400 text-yellow-700 hover:bg-yellow-300 hover:text-yellow-800 rounded;
-}
+} */
